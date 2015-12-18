@@ -11,7 +11,9 @@
   "bugs": "https://github.com/rtsao/jade-longform/issues",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "cover": "istanbul cover test/index.js",
+    "travis-test": "npm run cover && ((cat coverage/lcov.info | coveralls) || exit 0)"
   },
   "license": "MIT",
   "dependencies": {
@@ -21,6 +23,8 @@
     "jade-walk": "0.0.3"
   },
   "devDependencies": {
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
     "tape": "^4.2.2"
   }
 }
