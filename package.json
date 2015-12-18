@@ -1,0 +1,26 @@
+{
+  "name": "jade-longform",
+  "version": "1.0.0",
+  "description": "Jade preprocessor for longform text",
+  "keywords": [
+    "jade"
+  ],
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "repository": "git@github.com/rtsao/jade-longform.git",
+  "homepage": "https://github.com/rtsao/jade-longform",
+  "bugs": "https://github.com/rtsao/jade-longform/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jade-lexer": "0.0.9",
+    "jade-parser": "0.0.9",
+    "jade-source-gen": "0.0.1",
+    "jade-walk": "0.0.3"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
