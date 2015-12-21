@@ -30,6 +30,11 @@ div
   p Cras libero arcu, placerat eu aliquam nec, feugiat quis metus.
 ```
 
+### Rationale
+
+Markdown is inflexible unless you use the escape hatch of writing raw HTML. Jade provides both nice syntax and full flexibility, but specifying paragraph tags is burdensome when writing long-form content.
+
+
 [build-badge]: https://travis-ci.org/rtsao/jade-longform.svg?branch=master
 [build-href]: https://travis-ci.org/rtsao/jade-longform
 [coverage-badge]: https://coveralls.io/repos/rtsao/jade-longform/badge.svg?branch=master&service=github
